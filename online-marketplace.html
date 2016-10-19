@@ -9,9 +9,11 @@
   </head>
   <body>
     <div class="container">
-      <h1>You're ordering a Plumbus.</h1>
+      <div class="top-hide">
+        <h1>You're ordering a Plumbus.</h1>
 
-      <h2>Shipping Information</h2>
+        <h2>Shipping Information</h2>
+      </div>
       <form id="shipping-info">
         <div class="form-group">
           <label for="name">Full Name:</label>
@@ -67,12 +69,20 @@
       <div class="panel panel-default">
         <div class="panel-body">
           <h2><div class="receipt"></div></h2>
-          <div class="address1"></div>
-          <div class="address2"></div>
-          <div class="address3"></div>
-          <div class="address4"></div>
-          <div class="address5"></div>
-          <div class="address6"></div>
+          <p><div class="receipt2"></div></p>
+          <h2><div class="receipt3"></div></h2>
+          <div class="receipt-delivery">
+            <div id="delivery1"></div>
+            <div id="delivery2"></div>
+          </div>
+          <div class="receipt-address">
+            <div id="address1"></div>
+            <div id="address2"></div>
+            <div id="address3"></div>
+            <div id="address4"></div>
+            <div id="address5"></div>
+            <div id="address6"></div>
+          </div>
         </div>
       </div>
 
