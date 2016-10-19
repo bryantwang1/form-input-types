@@ -12,6 +12,9 @@ $(function() {
     var email = $("#email").val();
     var telephone = $("#telephone").val();
 
+    $("#shipping-info").toggle();
+    $(".panel").toggle();
+
     $(".receipt").text("Thank you for your purchase, " + name + "!");
     $(".address1").text(name);
     $(".address2").text(streetAddress + " APT " + apartment);
