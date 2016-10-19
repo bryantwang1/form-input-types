@@ -5,9 +5,51 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>Marketplace</title>
   </head>
   <body>
+    <div class="container">
+      <h1>You're ordering a Plumbus.</h1>
 
+      <h2>Shipping Information</h2>
+      <form id="shipping-info">
+        <div class="form-group">
+          <label for="userName">Full Name:</label>
+          <input id="userName" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="streetAddress">Street Address:</label>
+          <input id="streetAddress" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="apartment">Apt./Suite:</label>
+          <input id="apartment" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="city">City:</label>
+          <input id="city" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="zipCode">Zip:</label>
+          <input id="zipCode" class="form-control" type="text">
+        </div>
+        <label>Country:</label>
+        <select class="form-control" id="country">
+          <option>United States</option>
+          <option>Canada</option>
+          <option>Mexico</option>
+        </select>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input id="email" class="form-control" type="email">
+        </div>
+        <div class="form-group">
+          <label for="telephone">Telephone:</label>
+          <input id="telephone" class="form-control" type="tel">
+        </div>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+
+    </div>
   </body>
 </html>
